@@ -31,7 +31,7 @@ p {
 	background-color: #5F4936;
 	border-bottom: 0.4em solid #91B8A5;
 	border-top: 0.4em solid #91B8A5;
-	margin: 3em 0 1.5em;
+	margin: 3em 0 2.5em;
 }
 
 .menu-item {
@@ -54,4 +54,22 @@ p {
 	color: #C1D4E7;
 	position: relative;
 	top: 1px;
+}
+
+.section {
+	margin-bottom: 2.5em;
+}
+
+.section-title {
+	border-bottom: 1px solid #91B8A5;
+	clear: both;
+	display: block;
+	width: 100%;
+}
+
+.title {
+	border-bottom: 5px solid #91B8A5;
+	display: inline-block;
+	font-size: 2em;
+	padding-bottom: 0.25em;
 }
