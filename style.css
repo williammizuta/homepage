@@ -1,0 +1,57 @@
+body {
+	background:
+		linear-gradient(27deg, #FCC415 1px, transparent 1px) 0 1px,
+		linear-gradient(27deg, #FCC415 1px, transparent 1px) 0 1px,
+		linear-gradient(115deg, #FFF9D3 1px, transparent 1px);
+
+	background:
+		-webkit-linear-gradient(27deg, #FCC415 1px, transparent 1px) 0 1px,
+		-webkit-linear-gradient(27deg, #FCC415 1px, transparent 1px) 0 1px,
+		-webkit-linear-gradient(115deg, #FFF9D3 1px, transparent 1px);
+	background-color: #FFF9D3;
+	background-size: 10px 10px;
+}
+
+body * {
+	color: #5F4936;
+	font-family: 'Arvo', serif;
+}
+
+p {
+	text-align: justify;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.menu {
+	background-color: #5F4936;
+	border-bottom: 0.4em solid #91B8A5;
+	border-top: 0.4em solid #91B8A5;
+	margin: 3em 0 1.5em;
+}
+
+.menu-item {
+	display: inline-block;
+	margin: 0.5em 0;
+}
+
+.menu-item:not(:last-child) {
+	margin-right: 2em; 
+}
+
+.menu-item a {
+	color: #979899;
+	font-family: 'Schoolbell', cursive;
+	font-size: 2.5em;
+	text-decoration: none;
+}
+
+.menu-item:hover a {
+	color: #C1D4E7;
+	position: relative;
+	top: 1px;
+}
