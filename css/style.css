@@ -22,7 +22,7 @@ p {
 }
 
 .container {
-	max-width: 1200px;
+	max-width: 960px;
 	margin: 0 auto;
 	position: relative;
 }
@@ -67,6 +67,7 @@ p {
 	border-bottom: 1px solid #91B8A5;
 	clear: both;
 	display: block;
+	margin-bottom: 1.75em;
 	width: 100%;
 }
 
@@ -75,4 +76,24 @@ p {
 	display: inline-block;
 	font-size: 2em;
 	padding-bottom: 0.25em;
+}
+
+.description {
+	margin-bottom: 2em;
+}
+
+.description h4 {
+	font-size: 1.5em;
+	font-style: italic;
+	margin-bottom: 0.5em;
+	text-transform: uppercase;
+}
+
+.description span {
+	display: block;
+	margin-bottom: 0.5em;
+}
+
+.contact-item:not(:last-child) {
+	margin-bottom: 0.5em;
 }
