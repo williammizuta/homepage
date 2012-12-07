@@ -50,8 +50,11 @@ p {
 	text-decoration: none;
 }
 
-.menu-item:hover a {
+.menu-item.active a, .menu-item:hover a {
 	color: #C1D4E7;
+}
+
+.menu-item:hover a {
 	position: relative;
 	top: 1px;
 }
