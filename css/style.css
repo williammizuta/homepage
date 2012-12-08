@@ -22,7 +22,7 @@ p {
 }
 
 .container {
-	max-width: 960px;
+	max-width: 1200px;
 	margin: 0 auto;
 	position: relative;
 }
@@ -40,7 +40,7 @@ p {
 }
 
 .menu-item:not(:last-child) {
-	margin-right: 2em; 
+	margin-right: 2.5em;
 }
 
 .menu-item a {
@@ -54,7 +54,7 @@ p {
 	color: #C1D4E7;
 }
 
-.menu-item:hover a {
+.menu-item:active a {
 	position: relative;
 	top: 1px;
 }
