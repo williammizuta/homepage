@@ -18,6 +18,8 @@ body * {
 }
 
 p {
+	line-height: 1.5em;
+	margin-bottom: 0.5em;
 	text-align: justify;
 }
 
@@ -92,6 +94,16 @@ p {
 .description span {
 	display: block;
 	margin-bottom: 0.5em;
+}
+
+#projects {
+	float: left;
+	width: 57.5%;
+}
+
+#contact {
+	float: right;
+	width: 40%;
 }
 
 .contact-item:not(:last-child) {
