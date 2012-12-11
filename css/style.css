@@ -14,6 +14,10 @@ body {
 }
 
 body * {
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+
 	color: #5F4936;
 	font-family: 'Arvo', serif;
 }
@@ -67,6 +71,7 @@ p {
 
 .section {
 	margin-bottom: 2.5em;
+	padding: 0 1%;
 }
 
 .section-title {
@@ -120,4 +125,14 @@ p {
 
 .twitter, .github {
 	text-align: right;
+}
+
+#research {
+	float: left;
+	width: 33%;
+}
+
+#publication {
+	float: left;
+	width: 66%;
 }
