@@ -114,8 +114,8 @@ p {
 	text-decoration: none;
 }
 
-.contact-item:not(:last-child) {
-	margin-bottom: 0.5em;
+.email, .twitter {
+	margin-bottom: 0.75em;
 }
 
 .twitter, .github {
