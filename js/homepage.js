@@ -16,4 +16,13 @@ jQuery(document).ready(function($) {
 			$('.menu-item a[href$=' + $(currentSection).attr('id') + ']').parent().addClass('active');
 		}
 	});
+
+	$('.menu-item a').click(function(event) {
+		var section = $(this).attr('href')
+		$('body').animate({
+			scrollTop: $(section).offset().top - $('.menu').outerHeight()
+		}, 1200, 'swing');
+		event.preventDefault();
+	});
+
 });
