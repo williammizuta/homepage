@@ -8,6 +8,7 @@ body {
 		-webkit-linear-gradient(27deg, #FCC415 1px, transparent 1px) 0 1px,
 		-webkit-linear-gradient(27deg, #FCC415 1px, transparent 1px) 0 1px,
 		-webkit-linear-gradient(115deg, #FFF9D3 1px, transparent 1px);
+
 	background-color: #FFF9D3;
 	background-size: 10px 10px;
 }
@@ -29,10 +30,13 @@ p {
 	position: relative;
 }
 
-.menu {
+.menu, .footer {
 	background-color: #5F4936;
 	border-bottom: 0.4em solid #91B8A5;
 	border-top: 0.4em solid #91B8A5;
+}
+
+.menu {
 	margin: 3em 0 2.5em;
 }
 
@@ -52,7 +56,7 @@ p {
 	text-decoration: none;
 }
 
-.menu-item.active a, .menu-item:hover a {
+.menu-item.active a, .menu-item:hover a, .contact-item, .contact-item a {
 	color: #C1D4E7;
 }
 
@@ -96,16 +100,24 @@ p {
 	margin-bottom: 0.5em;
 }
 
-#projects {
-	float: left;
-	width: 57.5%;
+.footer {
+	margin-top: 10em;
+	padding: 2em 0;
 }
 
-#contact {
-	float: right;
-	width: 40%;
+.contact-item {
+	display: inline-block;
+	width: 49%;
+}
+
+.contact-item a {
+	text-decoration: none;
 }
 
 .contact-item:not(:last-child) {
 	margin-bottom: 0.5em;
+}
+
+.twitter, .github {
+	text-align: right;
 }
