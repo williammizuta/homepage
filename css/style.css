@@ -131,12 +131,11 @@ p {
 	text-decoration: none;
 }
 
-#research {
+#research, #publication, #work, #projects {
 	float: left;
 	width: 50%;
 }
 
-#publication {
-	float: left;
-	width: 50%;
+#research, #work, .footer {
+	clear: left;
 }
