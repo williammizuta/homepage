@@ -127,6 +127,10 @@ p {
 	text-align: right;
 }
 
+.project a {
+	text-decoration: none;
+}
+
 #research {
 	float: left;
 	width: 50%;

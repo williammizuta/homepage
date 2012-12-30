@@ -25,4 +25,10 @@ jQuery(document).ready(function($) {
 		event.preventDefault();
 	});
 
+	$('.project a').click(function(event) {
+		$('.project').removeClass('active');
+		$(this).parent().addClass('active');
+		event.preventDefault();
+	});
+
 });
