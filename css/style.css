@@ -131,11 +131,14 @@ p {
 	text-decoration: none;
 }
 
-#research, #publication, #work, #projects {
-	float: left;
-	width: 50%;
-}
-
 #research, #work, .footer {
 	clear: left;
 }
+
+@media only screen and (min-width: 1040px) {
+	#research, #publication, #work, #projects {
+		float: left;
+		width: 50%;
+	}
+}
+
